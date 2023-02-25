@@ -1,0 +1,46 @@
+
+.page2{
+    display: flex;
+    justify-content: space-around;
+}
+.page3{
+    margin-top: 20px;
+}
+.page4{
+    margin-top: 20px;
+}
+
+.checkbtn{
+    /* float:right; */
+    position: fixed;
+    right: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media(max-width: 990px){
+    .checkbtn{
+        display: block;
+    }
+}
+
+.nav2{
+    position: absolute;
+    top:50px;
+    width: 150px;
+    /* right: 5px; */
+    right:-100px;
+    
+    z-index: 1;
+    /* right:0px; */
+}
+
+.nav2 ul li{
+    padding: 10px;
+    list-style: none;
+    font-size: 22px;
+}
